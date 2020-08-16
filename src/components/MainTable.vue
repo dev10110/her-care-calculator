@@ -114,7 +114,7 @@ export default {
   data() {
     return {
       menu: false,
-      expectedDate: new Date().toISOString().substr(0, 10),
+      expectedDate: new Date(Date.now() + 8.64e7).toISOString().substr(0, 10),
       snack: false,
       snackColor: "",
       snackText: "",

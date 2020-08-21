@@ -2,7 +2,7 @@
   {
     "week": 1,
     "trimester": "First",
-    "dateString": "Hi",
+    "dateString": "",
     "milestones": ""
   },
   {
@@ -13,12 +13,12 @@
   {
     "week": 3,
     "trimester": "First",
-    "milestones": "Baby Conceived"
+    "milestones": ""
   },
   {
     "week": 4,
     "trimester": "First",
-    "milestones": "Pregnancy Test Positive"
+    "milestones": ""
   },
   {
     "week": 5,
@@ -28,7 +28,7 @@
   {
     "week": 6,
     "trimester": "First",
-    "milestones": "Heartbeat detectable by ultrasound"
+    "milestones": ""
   },
   {
     "week": 7,
@@ -60,14 +60,14 @@
     "week": 12,
     "trimester": "First",
 
-    "milestones": ""
+    "milestones": "Nuchal Scan/FTS"
   },
 
   {
     "week": 13,
     "trimester": "Second",
 
-    "milestones": "Miscarriage risk decreases"
+    "milestones": ""
   },
   {
     "week": 14,
@@ -98,13 +98,13 @@
     "week": 18,
     "trimester": "Second",
 
-    "milestones": "Baby begins making noticeable movements, can hear sounds, and gender can be found out. Adding even more info \n    Baby begins making noticeable movements, can hear sounds, and gender can be found out."
+    "milestones": ""
   },
   {
     "week": 19,
     "trimester": "Second",
 
-    "milestones": ""
+    "milestones": "Anomaly Scan"
   },
   {
     "week": 20,
@@ -128,7 +128,7 @@
     "week": 23,
     "trimester": "Second",
 
-    "milestones": "Premature baby may survive"
+    "milestones": "Inj. TT"
   },
   {
     "week": 24,
@@ -146,19 +146,19 @@
     "week": 26,
     "trimester": "Second",
 
-    "milestones": ""
+    "milestones": "CBC, MGTT, Urine R"
   },
   {
     "week": 27,
     "trimester": "Second",
 
-    "milestones": ""
+    "milestones": "3D Scan"
   },
   {
     "week": 28,
     "trimester": "Third",
 
-    "milestones": "Baby can breathe"
+    "milestones": "Inj. TDap/Inj.Flu Vacc."
   },
   {
     "week": 29,
@@ -194,7 +194,7 @@
     "week": 34,
     "trimester": "Third",
 
-    "milestones": ""
+    "milestones": "Growth Scan"
   },
   {
     "week": 35,
@@ -218,7 +218,7 @@
     "week": 38,
     "trimester": "Third",
 
-    "milestones": "Full Term (Week 38-42)"
+    "milestones": "Doppler Flow (sos)"
   },
   {
     "week": 39,

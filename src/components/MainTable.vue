@@ -26,11 +26,7 @@
                 v-on="on"
               ></v-text-field>
             </template>
-            <v-date-picker
-              v-model="expectedDate"
-              @input="updateDates"
-              @change="updateDates"
-            ></v-date-picker>
+            <v-date-picker v-model="expectedDate" @input="updateDates" @change="updateDates"></v-date-picker>
           </v-menu>
         </v-col>
       </v-row>
@@ -47,9 +43,11 @@
       >
         <template v-slot:item.dateString="{ item }">
           <div v-if="checkColor(item)">
-            <v-chip class="ma-2" color="green" text-color="white">{{
+            <v-chip class="ma-2" color="green" text-color="white">
+              {{
               item.dateString
-            }}</v-chip>
+              }}
+            </v-chip>
           </div>
           <div v-else>{{ item.dateString }}</div>
         </template>
@@ -69,12 +67,7 @@
               <div class="mt-4 title">Update milestones</div>
             </template>
             <template v-slot:input>
-              <v-text-field
-                v-model="props.item.milestones"
-                label="Edit"
-                counter
-                autofocus
-              ></v-text-field>
+              <v-text-field v-model="props.item.milestones" label="Edit" counter autofocus></v-text-field>
             </template>
           </v-edit-dialog>
         </template>
@@ -107,7 +100,7 @@ const monthNames = [
   "Sept",
   "Oct",
   "Nov",
-  "Dec",
+  "Dec"
 ];
 
 export default {
@@ -125,12 +118,13 @@ export default {
           text: "Week",
           align: "center",
           value: "week",
+          width: "10ch"
         },
-        { text: "Trimester", value: "trimester" },
-        { text: "Dates", value: "dateString", width: "20ch" },
-        { text: "Milestones", value: "milestones" },
+        { text: "Trimester", value: "trimester", width: "10ch" },
+        { text: "Dates", value: "dateString", width: "30ch" },
+        { text: "Milestones", value: "milestones" }
       ],
-      schedule: JSON.parse(JSON.stringify(defaultSched)),
+      schedule: JSON.parse(JSON.stringify(defaultSched))
     };
   },
 
@@ -193,7 +187,7 @@ export default {
     setEntries() {
       var arr = new Array();
 
-      this.schedule.forEach((el) => {
+      this.schedule.forEach(el => {
         if (el.milestones !== "") {
           let t = {};
           t.week = el.week;
@@ -219,7 +213,7 @@ export default {
 
         //console.log(arr);
 
-        arr.forEach((el) => {
+        arr.forEach(el => {
           //console.log("For index", el.week - 1, el.milestones);
           this.schedule[el.week - 1].milestones = el.milestones;
         });
@@ -285,8 +279,8 @@ export default {
         this.schedule[i].endDate = d_end;
         this.schedule[i].dateString = dateString;
       }
-    },
-  },
+    }
+  }
 };
 </script>
 
